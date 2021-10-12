@@ -31,7 +31,7 @@ classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models
 function speak(){
   var synth = window.speechSynthesis;
   speak_data_1 = "La primera predicción es " + prediction_1;
-  speak_data_2 = "Y la segunda predicción es " + prediction_2;
+  speak_data_2 = "y la segunda predicción es " + prediction_2;
   var utterThis = new SpeechSynthesisUtterance(speak_data_1 + speak_data_2);
   synth.speak(utterThis);
 }
